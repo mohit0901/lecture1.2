@@ -3,10 +3,34 @@
 <head>
 <title>First Lecture</title>
 <meta charset="UTF-8">
+<style>
+body
+{
+	background:pink;
+}
+p
+{
+	font-size:50px;
+	border:1px solid black;
+	padding:20px;
+	transition-property:font-size;
+	transition-duration:1s;
+	transition-timing-function:linear;
+}
+p:active
+{
+	font-size:100px;
+}
+</style>
 </head>
 <body>
 <h1>This is a heading</h1>
-<h2>This is another heading</h2>
+<!--<h2>This is another heading</h2>-->
 <p>This is a paragraph</p>
+<p>This is another paragraph</p>
+<pre>
+Name :<input type="text" name="name" id="nm"/>
+Password :<input type="password" name="pass" id="pass"/>
+</pre>
 </body>
 </html>
